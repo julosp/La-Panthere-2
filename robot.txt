@@ -5,5 +5,5 @@ Disallow: /js/
 Disallow: /css/
 Disallow: /sass/
 Disallow: /includes/
-Allow: /img/logo.png
-Allow: /img/agence-la-panthere-monochrome.svg
+Allow: /img/logo.webp
+Allow: /img/agence-la-panthere-monochrome.webp

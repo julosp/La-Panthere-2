@@ -32,10 +32,45 @@
     <title>La Panthère | Contact</title>
 
     <!-- Analytics -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PVZXHKL");
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      defer
+      src="https://www.googletagmanager.com/gtag/js?id=G-XY9HCEP189"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "G-XY9HCEP189");
+    </script>
     <!-- Analytics END -->
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PVZXHKL"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- Principal conteneur -->
     <div class="page-container">
       <!-- bloc-0 -->
@@ -48,7 +83,7 @@
                   src="img/agence-la-panthere-monochrome.webp"
                   alt="atlanta web design logo"
                   height="40"
-				  width="200"
+                  width="200"
               /></a>
               <button
                 id="nav-toggle"
@@ -106,48 +141,52 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-6">
-              <form
-                id="form_1"
-                novalidate
-              >
+              <form id="form_1" novalidate>
                 <div class="form-group">
-                  <label> Nom 
-                  <input id="name" class="form-control" type="text" required />
-				</label>
+                  <label>
+                    Nom
+                    <input
+                      id="name"
+                      class="form-control"
+                      type="text"
+                      required
+                    />
+                  </label>
                 </div>
                 <div class="form-group">
-                  <label> Adresse email 
-                  <input
-					type="email"
-                    id="email"
-                    class="form-control"
-                    
-                    required
-                  />
-				</label>
+                  <label>
+                    Adresse email
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control"
+                      required
+                    />
+                  </label>
                 </div>
                 <div class="form-group">
-                  <label> Comment nous avez-vous connu ? 
-                  <input
-					type="text"
-                    class="form-control"
-                    required
-                    id="input_504"
-                  />
-				</label>
+                  <label>
+                    Comment nous avez-vous connu ?
+                    <input
+                      type="text"
+                      class="form-control"
+                      required
+                      id="input_504"
+                    />
+                  </label>
                 </div>
                 <div class="form-group">
                   <label>
                     Brief de votre projet (Ajoutez autant de détails que
-                    nécessaire)<br /> <textarea
-                    id="message"
-                    class="form-control"
-                    rows="4"
-                    cols="50"
-                    required
-                  ></textarea>
-				  </label
-                  >
+                    nécessaire)<br />
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      rows="4"
+                      cols="50"
+                      required
+                    ></textarea>
+                  </label>
                 </div>
                 <button
                   class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
