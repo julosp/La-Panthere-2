@@ -9,7 +9,6 @@ body {
 
 a,
 button {
-  transition: all 0.3s ease-in-out;
   outline: none !important;
 }
 
@@ -793,7 +792,7 @@ h4 {
 .ltc-white {
   color: #ffffff !important;
 }
-.ltc-black{
+.ltc-black {
   color: #000000 !important;
 }
 
