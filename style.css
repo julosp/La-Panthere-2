@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  padding: 0;
+  width: 100vh;
+  height: 100vh;
   background: #fff;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
